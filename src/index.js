@@ -25,7 +25,7 @@ const renderQuote = (quote)=>{
                     <p class="mb-${quote.id}">${quote.quote}</p>
                     <footer class="blockquote-footer">${quote.author}</footer>
                     <br>
-                    <button class='btn-success'>Likes: <span>${quote.likes ? quote.likes.length : 0}</span></button>
+                    <button class='btn-success'>Likes: <span>${quote.likes.length}</span></button>
                     <button class='btn-danger'>Delete</button>
                     </blockquote>`
     ul.append(li)
@@ -58,7 +58,10 @@ form.addEventListener('submit', (event)=>{
 
     fetch("http://localhost:3000/quotes", quoteObjConfig)
     .then(r=> r.json())
-    .then(renderQuote)
+    .then(quote =>{
+        quote.likes = []
+        renderQuote(quote)
+    })
 })
 
 /// deleting a quote

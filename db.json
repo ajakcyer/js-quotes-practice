@@ -54,6 +54,16 @@
       "id": 11,
       "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
       "author": "Ann Richards"
+    },
+    {
+      "quote": "Learn. Love. Grow.",
+      "author": "Flatiron School",
+      "id": 12
+    },
+    {
+      "quote": "Learn. Love. Grow.",
+      "author": "Flatiron School",
+      "id": 13
     }
   ],
   "likes": [
@@ -71,6 +81,51 @@
       "quoteId": 11,
       "createdAt": 1604414985793,
       "id": 10
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1604419175578,
+      "id": 11
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1604419176039,
+      "id": 12
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1604419176422,
+      "id": 13
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420301331,
+      "id": 14
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420301512,
+      "id": 15
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420301664,
+      "id": 16
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420304005,
+      "id": 17
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420304260,
+      "id": 18
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1604420304444,
+      "id": 19
     }
   ]
 }
